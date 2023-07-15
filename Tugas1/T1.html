@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS 1 - Ahmad S. Zaky</title>
+</head>
+<body>
+    <h1>TUGAS 1</h1>
+    <div>
+        <input type="number" name="loop" id="loop">
+        <button onclick="cetak()">Cetak</button>
+    </div>
+    <script>
+        var loop = document.getElementById("loop");
+
+        function cetak() {
+            for(let i = 0 ; i < loop.value ; i++){
+                document.write("Input ke-" + i + "<br>");
+            }
+        }
+    </script>
+
+</body>
+</html>
